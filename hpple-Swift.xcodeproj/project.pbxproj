@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790521A01945F995007DD755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7905219F1945F995007DD755 /* AppDelegate.swift */; };
+		790521A21945F995007DD755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790521A11945F995007DD755 /* ViewController.swift */; };
+		790521A51945F995007DD755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790521A31945F995007DD755 /* Main.storyboard */; };
+		790521A71945F995007DD755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790521A61945F995007DD755 /* Images.xcassets */; };
+		790521B31945F995007DD755 /* hpple_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790521B21945F995007DD755 /* hpple_SwiftTests.swift */; };
+		790521BE1945F9F8007DD755 /* Hpple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790521BD1945F9F8007DD755 /* Hpple.swift */; };
+		7973A6A5194609D900537116 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7973A6A4194609D900537116 /* libxml2.2.dylib */; };
+		79BF079A194DBE5F0009A7F9 /* XPathQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF0799194DBE5F0009A7F9 /* XPathQuery.swift */; };
+		79CFC3F019503C3100845579 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CFC3EF19503C3100845579 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		790521AD1945F995007DD755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790521921945F995007DD755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790521991945F995007DD755;
+			remoteInfo = "hpple-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7905219A1945F995007DD755 /* hpple-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hpple-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7905219E1945F995007DD755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7905219F1945F995007DD755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		790521A11945F995007DD755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		790521A41945F995007DD755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		790521A61945F995007DD755 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		790521AC1945F995007DD755 /* hpple-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hpple-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790521B11945F995007DD755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790521B21945F995007DD755 /* hpple_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hpple_SwiftTests.swift; sourceTree = "<group>"; };
+		790521BD1945F9F8007DD755 /* Hpple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hpple.swift; sourceTree = "<group>"; };
+		7954D559194E830700E53E9E /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
+		7973A6A1194608D200537116 /* hpple-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hpple-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		7973A6A4194609D900537116 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		79BF0799194DBE5F0009A7F9 /* XPathQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XPathQuery.swift; path = "hpple-Swift/hpple/XPath/XPathQuery.swift"; sourceTree = SOURCE_ROOT; };
+		79CFC3EF19503C3100845579 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790521971945F995007DD755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CFC3F019503C3100845579 /* AVFoundation.framework in Frameworks */,
+				7973A6A5194609D900537116 /* libxml2.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790521A91945F995007DD755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790521911945F995007DD755 = {
+			isa = PBXGroup;
+			children = (
+				79CFC3EF19503C3100845579 /* AVFoundation.framework */,
+				7954D559194E830700E53E9E /* test.playground */,
+				7973A6A4194609D900537116 /* libxml2.2.dylib */,
+				7905219C1945F995007DD755 /* hpple-Swift */,
+				790521AF1945F995007DD755 /* hpple-SwiftTests */,
+				7905219B1945F995007DD755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7905219B1945F995007DD755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7905219A1945F995007DD755 /* hpple-Swift.app */,
+				790521AC1945F995007DD755 /* hpple-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7905219C1945F995007DD755 /* hpple-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				790521BC1945F9AA007DD755 /* hpple */,
+				7905219F1945F995007DD755 /* AppDelegate.swift */,
+				790521A11945F995007DD755 /* ViewController.swift */,
+				790521A31945F995007DD755 /* Main.storyboard */,
+				790521A61945F995007DD755 /* Images.xcassets */,
+				7905219D1945F995007DD755 /* Supporting Files */,
+			);
+			path = "hpple-Swift";
+			sourceTree = "<group>";
+		};
+		7905219D1945F995007DD755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7973A6A1194608D200537116 /* hpple-Swift-Bridging-Header.h */,
+				7905219E1945F995007DD755 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		790521AF1945F995007DD755 /* hpple-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				790521B21945F995007DD755 /* hpple_SwiftTests.swift */,
+				790521B01945F995007DD755 /* Supporting Files */,
+			);
+			path = "hpple-SwiftTests";
+			sourceTree = "<group>";
+		};
+		790521B01945F995007DD755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				790521B11945F995007DD755 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		790521BC1945F9AA007DD755 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				79B283F51946009D002471C4 /* xpath */,
+				790521BD1945F9F8007DD755 /* Hpple.swift */,
+			);
+			path = hpple;
+			sourceTree = "<group>";
+		};
+		79B283F51946009D002471C4 /* xpath */ = {
+			isa = PBXGroup;
+			children = (
+				79BF0799194DBE5F0009A7F9 /* XPathQuery.swift */,
+			);
+			path = xpath;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790521991945F995007DD755 /* hpple-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790521B61945F995007DD755 /* Build configuration list for PBXNativeTarget "hpple-Swift" */;
+			buildPhases = (
+				790521961945F995007DD755 /* Sources */,
+				790521971945F995007DD755 /* Frameworks */,
+				790521981945F995007DD755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hpple-Swift";
+			productName = "hpple-Swift";
+			productReference = 7905219A1945F995007DD755 /* hpple-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		790521AB1945F995007DD755 /* hpple-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790521B91945F995007DD755 /* Build configuration list for PBXNativeTarget "hpple-SwiftTests" */;
+			buildPhases = (
+				790521A81945F995007DD755 /* Sources */,
+				790521A91945F995007DD755 /* Frameworks */,
+				790521AA1945F995007DD755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790521AE1945F995007DD755 /* PBXTargetDependency */,
+			);
+			name = "hpple-SwiftTests";
+			productName = "hpple-SwiftTests";
+			productReference = 790521AC1945F995007DD755 /* hpple-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790521921945F995007DD755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Petta.mobi;
+				TargetAttributes = {
+					790521991945F995007DD755 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					790521AB1945F995007DD755 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 790521991945F995007DD755;
+					};
+				};
+			};
+			buildConfigurationList = 790521951945F995007DD755 /* Build configuration list for PBXProject "hpple-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 790521911945F995007DD755;
+			productRefGroup = 7905219B1945F995007DD755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790521991945F995007DD755 /* hpple-Swift */,
+				790521AB1945F995007DD755 /* hpple-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790521981945F995007DD755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790521A51945F995007DD755 /* Main.storyboard in Resources */,
+				790521A71945F995007DD755 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790521AA1945F995007DD755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790521961945F995007DD755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790521BE1945F9F8007DD755 /* Hpple.swift in Sources */,
+				790521A21945F995007DD755 /* ViewController.swift in Sources */,
+				79BF079A194DBE5F0009A7F9 /* XPathQuery.swift in Sources */,
+				790521A01945F995007DD755 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790521A81945F995007DD755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790521B31945F995007DD755 /* hpple_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		790521AE1945F995007DD755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790521991945F995007DD755 /* hpple-Swift */;
+			targetProxy = 790521AD1945F995007DD755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		790521A31945F995007DD755 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790521A41945F995007DD755 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790521B41945F995007DD755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "hpple-Swift/hpple-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		790521B51945F995007DD755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "hpple-Swift/hpple-Swift-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790521B71945F995007DD755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/xcode6/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"${SDK_ROOT}/usr/include/libxml2",
+					"${SDK_ROOT}/usr/include/libxml",
+				);
+				INFOPLIST_FILE = "hpple-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hpple-Swift/hpple-Swift-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		790521B81945F995007DD755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/xcode6/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"${SDK_ROOT}/usr/include/libxml2",
+					"${SDK_ROOT}/usr/include/libxml",
+				);
+				INFOPLIST_FILE = "hpple-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hpple-Swift/hpple-Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		790521BA1945F995007DD755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hpple-Swift.app/hpple-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hpple-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		790521BB1945F995007DD755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hpple-Swift.app/hpple-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hpple-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790521951945F995007DD755 /* Build configuration list for PBXProject "hpple-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790521B41945F995007DD755 /* Debug */,
+				790521B51945F995007DD755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790521B61945F995007DD755 /* Build configuration list for PBXNativeTarget "hpple-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790521B71945F995007DD755 /* Debug */,
+				790521B81945F995007DD755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790521B91945F995007DD755 /* Build configuration list for PBXNativeTarget "hpple-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790521BA1945F995007DD755 /* Debug */,
+				790521BB1945F995007DD755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790521921945F995007DD755 /* Project object */;
+}
